@@ -1,6 +1,7 @@
 ### **Typo**
 
 ### test
+-------
 
 # [h1] The largest heading
 ## [h2] heading
