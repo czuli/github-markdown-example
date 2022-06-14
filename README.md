@@ -1,4 +1,4 @@
-![buddy pipeline](https://app.buddy.works/buddy-works/dockerfile-linter/pipelines/pipeline/243198/badge.svg?token=be04e77cb21d0e7e611853e903e521ba233e01d46699a1e6dc00f85a853cbdd6 "buddy pipeline")
+
 
 ### **Typo**
 
