@@ -67,7 +67,13 @@ git add
 git commit
 ```
 
-```docker
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+```bash
 # image
 FROM php:7.1-apache
 
@@ -133,6 +139,24 @@ USER root
 # run cron alongside apache
 CMD [ "sh", "-c", "cron && apache2-foreground" ]
 ```
+
+----- 
+### Paragraphs
+
+### Never store dependencies and compiled artifacts in the repository
+
+- A repository with dependencies and artifacts is **growing very fast**. Git has not been designed to cope with large files, and the bigger the size of a file, the worse it performs
+- If you store artifacts in the repository, you need to remember to compile the application before every commit, so you can commit the altered artifacts together with the changes to the source code. It's very risky because if you **forget to update the artifacts** in the repo, deploying your application to Production server may cause serious problems.
+- The tasks that you use to compile, minimize and concatenate files may produce **different results**: it's enough that developers on your team use different versions of Node.js. Committing such files to the repository will incite constant conflicts that need to be solved manually. This makes branch merges very troublesome.
+- An application compiled in version X of Node.js may **not work properly** in version Y – yet another human factor issue which makes it difficult to be 100% sure that the generated artifacts are compatible with the Node version on the Production server.
+
+### Deploy has more steps
+
+Okay, so now that we know keeping artifacts and dependencies in the repository is not a good idea, the question is: how *should* we deploy our application to the server? Without a Continuous Deployment tool, it usually looked like this:
+
+1. The application is uploaded to the server via SFTP/SCP or Git and built with a script that will download the dependencies and run the tasks directly on the server
+2. In case the SSH access is not available (eg. the server is FTP) the application must be built in a compatible environment before the deployment
+
 
 ----- 
 ### Links
