@@ -1,39 +1,50 @@
 ## Typo
 
-# The largest heading
-## The second largest heading
-###### The smallest heading
+# [h1] The largest heading
+## [h2] heading
+### [h3] heading
+#### [h4] heading
+##### [h5] heading
+###### [h6] The smallest heading
 
 ----- 
+
 ## Bold
 
 **This is bold text**
+
+----- 
 
 ## Italic
 
 *This text is italicized*	
 
+----- 
 ## Strikethrough
 
 ~~This was mistaken text~~	
 
+----- 
 ## Bold and nested italic
 
 **This text is _extremely_ important**	
 
+----- 
 ## All bold and italic	
 
 ***All this text is important***	
 
+----- 
 ## Subscript	
 
 <sub>This is a subscript text</sub>	
 
+----- 
 ## Superscript
 
 <sup>This is a superscript text</sup>	
 
-
+----- 
 ## Quote
 
 Text that is not a quote
@@ -42,8 +53,9 @@ Text that is not a quote
 > Text that is a quote
 > Text that is a quote
 
-
+----- 
 ## Quoting code
+
 Use `git status` to list all new or modified files that haven't yet been committed.
 
 
@@ -54,20 +66,23 @@ git add
 git commit
 ```
 
+----- 
 ## Links
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
+----- 
 ## Section links
 
 
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
+----- 
 ## Image
 
 ![This is an image](https://buddy.works/assets/svg/brands/buddy.svg)
 
-
+----- 
 ## Specifying the theme an image is shown to
 
 <picture>
@@ -77,7 +92,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 </picture>
 
 
-
+----- 
 ## List 
 
 ### Normal list
@@ -107,6 +122,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
    - list item
       - list item
 
+----- 
 ## Task lists
 
 - [x] #739
@@ -116,10 +132,12 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 @github/support What do you think about these updates?
 
+----- 
 ## emoji
 
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
+----- 
 ## Footnotes
 
 Here is a simple footnote[^1].
@@ -135,17 +153,17 @@ You can also use words, to fit your writing style more closely[^note].
     Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
     This footnote also has been made with a different syntax using 4 spaces for new lines.
     
-    
+----- 
 ## Hiding content with comments
 
 <!-- This content will not appear in the rendered Markdown -->
 
-
+----- 
 ## Ignoring Markdown formatting
 
 Let's rename \*our-new-project\* to \*our-old-project\*.
 
-
+----- 
 ## Table
 
 | Left-aligned | Center-aligned | Right-aligned |
@@ -154,7 +172,7 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 | git diff     | git diff       | git diff      |
 
 
-
+----- 
 ## Diagrams
 
 Here is a simple flow chart:
