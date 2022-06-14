@@ -179,7 +179,11 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 ----- 
 ### Image
 
+#### image from internet
 ![This is an image](https://buddy.works/assets/svg/brands/buddy.svg)
+
+#### image from repo with link
+[![](assets/buddy-podcast.png)](https://buddy.works)
 
 ----- 
 ### Specifying the theme an image is shown to
