@@ -1,4 +1,4 @@
-## Typo
+### Typo
 
 # [h1] The largest heading
 ## [h2] heading
@@ -9,43 +9,43 @@
 
 ----- 
 
-## Bold
+### Bold
 
 **This is bold text**
 
 ----- 
 
-## Italic
+### Italic
 
 *This text is italicized*	
 
 ----- 
-## Strikethrough
+### Strikethrough
 
 ~~This was mistaken text~~	
 
 ----- 
-## Bold and nested italic
+### Bold and nested italic
 
 **This text is _extremely_ important**	
 
 ----- 
-## All bold and italic	
+### All bold and italic	
 
 ***All this text is important***	
 
 ----- 
-## Subscript	
+### Subscript	
 
 <sub>This is a subscript text</sub>	
 
 ----- 
-## Superscript
+### Superscript
 
 <sup>This is a superscript text</sup>	
 
 ----- 
-## Quote
+### Quote
 
 Text that is not a quote
 
@@ -54,7 +54,7 @@ Text that is not a quote
 > Text that is a quote
 
 ----- 
-## Quoting code
+### Quoting code
 
 Use `git status` to list all new or modified files that haven't yet been committed.
 
@@ -67,23 +67,23 @@ git commit
 ```
 
 ----- 
-## Links
+### Links
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
 ----- 
-## Section links
+### Section links
 
 
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
 ----- 
-## Image
+### Image
 
 ![This is an image](https://buddy.works/assets/svg/brands/buddy.svg)
 
 ----- 
-## Specifying the theme an image is shown to
+### Specifying the theme an image is shown to
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
@@ -93,7 +93,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 
 ----- 
-## List 
+### List 
 
 ### Normal list
 
@@ -108,7 +108,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 3. John Quincy Adams
 
 
-## Nested Lists
+### Nested Lists
 
 1. First list item
    - First nested list item
@@ -123,7 +123,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
       - list item
 
 ----- 
-## Task lists
+### Task lists
 
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
@@ -133,12 +133,12 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 @github/support What do you think about these updates?
 
 ----- 
-## emoji
+### emoji
 
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
 ----- 
-## Footnotes
+### Footnotes
 
 Here is a simple footnote[^1].
 
@@ -154,17 +154,17 @@ You can also use words, to fit your writing style more closely[^note].
     This footnote also has been made with a different syntax using 4 spaces for new lines.
     
 ----- 
-## Hiding content with comments
+### Hiding content with comments
 
 <!-- This content will not appear in the rendered Markdown -->
 
 ----- 
-## Ignoring Markdown formatting
+### Ignoring Markdown formatting
 
 Let's rename \*our-new-project\* to \*our-old-project\*.
 
 ----- 
-## Table
+### Table
 
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
@@ -173,7 +173,7 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 
 ----- 
-## Diagrams
+### Diagrams
 
 Here is a simple flow chart:
 
