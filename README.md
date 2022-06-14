@@ -59,6 +59,7 @@ Text that is not a quote
 
 Use `git status` to list all new or modified files that haven't yet been committed.
 
+#### Code without highlighting
 
 Some basic Git commands are:
 ```
@@ -67,11 +68,15 @@ git add
 git commit
 ```
 
+#### Syntax highlighting
+
+#### ruby code
 ```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
+#### bash code
 
 ```bash
 # image
