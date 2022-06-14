@@ -6,20 +6,32 @@
 
 **This is bold text**
 
-## italicized
+## Italic
 
 *This text is italicized*	
 
+## Strikethrough
+
 ~~This was mistaken text~~	
+
+## Bold and nested italic
 
 **This text is _extremely_ important**	
 
+## All bold and italic	
+
 ***All this text is important***	
+
+## Subscript	
 
 <sub>This is a subscript text</sub>	
 
+## Superscript
+
 <sup>This is a superscript text</sup>	
 
+
+## Quote
 
 Text that is not a quote
 
@@ -39,7 +51,11 @@ git add
 git commit
 ```
 
+## Links
+
 This site was built using [GitHub Pages](https://pages.github.com/).
+
+## Section links
 
 
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
@@ -49,12 +65,14 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 ![This is an image](https://buddy.works/assets/svg/brands/buddy.svg)
 
 
+## Specifying the theme an image is shown to
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
   <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
   <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
+
 
 
 ## List 
@@ -76,7 +94,15 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 1. First list item
    - First nested list item
-     - Second nested list item
+     - list item
+     - list item
+   - Second nested list item
+     - list item
+     - list item
+2. Second list item
+   - list item
+   - list item
+      - list item
 
 ## Task lists
 
@@ -119,10 +145,11 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 ## Table
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
 
 
 ## Diagrams
