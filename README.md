@@ -2,7 +2,11 @@
 ## The second largest heading
 ###### The smallest heading
 
+## Bold
+
 **This is bold text**
+
+## italicized
 
 *This text is italicized*	
 
@@ -113,4 +117,22 @@ You can also use words, to fit your writing style more closely[^note].
 Let's rename \*our-new-project\* to \*our-old-project\*.
 
 
+## Table
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
+
+## Diagrams
+
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
